@@ -3,8 +3,13 @@ import React from "react";
 
 
 const Card = () => {
-    
-return <div>Hola, soy una tarjeta</div>;
+
+
+
+return <div>
+    <h3>Hola fulano</h3>
+    <h3>tu signo es xxxx</h3>
+</div>;
 };
 
 
