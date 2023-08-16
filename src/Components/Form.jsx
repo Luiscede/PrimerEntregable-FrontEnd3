@@ -30,7 +30,7 @@ const Form = () => {
     <input type="text" onChange={(event) => setEstudiante({...Estudiante, apellido: event.target.value})}/>
     <label>¿Cual es tu signo?</label>
     <input type="text" onChange={(event) => setEstudiante({...Estudiante, zodiaco: event.target.value})}/>
-    <button onClick={handleSubmit}>Enviar</button>
+    <button type= "sudmit" onClick={handleSubmit}>Enviar</button>
     {enviado && <Card/>}
     {error && <h3 style={{color: 'red'}}>Por favor llene los campos correctamente</h3>}
     </div>
